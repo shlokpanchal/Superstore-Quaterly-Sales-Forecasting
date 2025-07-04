@@ -30,27 +30,6 @@ The dashboard is built using three distinct CSV files that together provide a co
 
 ---
 
-## How the Dashboard Was Created
-
-This dashboard was developed using **Tableau**, a powerful data visualization tool. The process involved several key steps:
-
-1.  **Data Connection and Relationships**: The three CSV files (`Orders`, `Returns`, and `People`) were connected within Tableau.
-    * `Orders` and `Returns` were joined using the **Order ID** field to identify which sales transactions were associated with a return.
-    * `Orders` and `People` were joined using the **Region** field to link sales data to the responsible regional manager.
-
-2.  **Worksheet Creation**: Individual charts and views were created as separate "Worksheets" in Tableau to analyze specific dimensions of the data:
-    * KPI cards were created to display the total Sales, Profit, Quantity, and the overall Profit Ratio.
-    * A dual-axis time-series chart was built to show **Sales and Profit by Month**.
-    * A filled map was generated to visualize **Sales by Region**.
-    * Various bar charts were created to break down sales by **Segment**, **Ship Mode**, and **Sub-Category**.
-    * A treemap was used to show the proportion of **Sales by Category and Sub-Category**.
-
-3.  **Forecasting Implementation**: The "Sales and Profit by Month" line chart includes a predictive element. This was achieved using **Tableau's built-in forecasting model**. The model analyzes the historical time-series data to project future sales and profit trends, which are displayed as a shaded area on the chart.
-
-4.  **Dashboard Assembly**: All the individual worksheets, along with interactive filters, were arranged on a single dashboard canvas to create a cohesive and user-friendly interface.
-
----
-
 ##  navigating the Dashboard
 
 The dashboard is designed to be interactive, allowing you to filter and explore the data dynamically.

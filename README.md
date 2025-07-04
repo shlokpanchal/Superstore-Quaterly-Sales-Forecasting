@@ -1,5 +1,7 @@
 # Superstore Quaterly Sales Forecasting using Tableau
 
+**Tableau Dashboard Link:** https://public.tableau.com/views/QuaterlySalesForecast_17422125898670/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 This README provides a comprehensive overview of the Superstore Sales Dashboard, including its purpose, the data sources used, the creation process in Tableau, and instructions on how to navigate and interact with its features.
 
 ## Dashboard Overview
